@@ -5,3 +5,14 @@
   flex-direction: row;
   justify-content: space-around;
 }
+
+.logo-header-top{
+  width: 100%;
+  max-width: 30px;
+}
+
+.login-info{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
