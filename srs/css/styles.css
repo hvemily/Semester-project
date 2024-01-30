@@ -1,14 +1,18 @@
+body{
+  background-color: #EDEAD0;
+}
+
 /*main page*/
 
 .bottom-header{
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
+  justify-content: space-between;
 }
 
 .logo-header-top{
   width: 100%;
-  max-width: 30px;
+  max-width: 45px;
 }
 
 .login-info{
