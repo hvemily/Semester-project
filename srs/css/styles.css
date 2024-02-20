@@ -1,3 +1,4 @@
+
 body{
   background-color: #000000;
 }
@@ -9,6 +10,16 @@ p{
 a{
   color: rgb(250, 219, 20);
 }
+
+h1{
+  color: rgb(250, 219, 20);
+}
+
+*{
+  font-family: arial;
+}
+
+
 /*main page*/
 
 .desktop-header {
@@ -41,7 +52,8 @@ a{
   grid-template-columns: repeat(2, 1fr);
   grid-template-rows: repeat(2, 1fr);
   grid-column-gap: 10px;
-grid-row-gap: 10px;
+  grid-row-gap: 10px;
+  margin-right: 10px;
 }
 
 .social-media img {
@@ -58,3 +70,22 @@ grid-row-gap: 10px;
   width: 100%;
   max-width: 1000px;
 }
+
+.main-header{
+  text-align: center;
+}
+
+.intro-pictures{
+  display: flex;
+  flex-direction: row;
+  gap: 25px;
+  justify-content: center;
+}
+
+.googles, .space{
+  width: 100%;
+  max-width: 400px;
+  border: 1px solid rgb(250, 219, 20);
+  border-radius: 50px;
+}
+
