@@ -26,6 +26,7 @@ h1{
   display: flex;
   justify-content: space-evenly;
   align-items: center;
+  border-bottom: 1px solid rgb(250, 219, 20);
 }
 
 .logo {
@@ -53,7 +54,7 @@ h1{
   grid-template-rows: repeat(2, 1fr);
   grid-column-gap: 10px;
   grid-row-gap: 10px;
-  margin-right: 10px;
+  margin-right: 15px;
 }
 
 .social-media img {
@@ -73,19 +74,53 @@ h1{
 
 .main-header{
   text-align: center;
+  margin-bottom: 45px;
 }
 
 .intro-pictures{
   display: flex;
   flex-direction: row;
-  gap: 25px;
   justify-content: center;
+  gap: 25px;
+  margin-bottom: 45px;
 }
 
-.googles, .space{
-  width: 100%;
-  max-width: 400px;
+.goggles, .space{
   border: 1px solid rgb(250, 219, 20);
-  border-radius: 50px;
+  border-radius: 60px;
+  width: 100%;
+  max-width: 600px;
+  min-width: 100px;
+  height: auto;
 }
 
+.intro-desktop{
+  display: flex;
+  justify-content: center;
+  border-top: 45px;
+  text-align: center;
+}
+
+.icons{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.testing-kit, .ai-glasses, .dice{
+  width: 100%;
+  max-width: 80px;
+}
+
+.exhibits{
+  color: rgb(250, 219, 20);
+  font-size: 60px;
+}
+
+.insidemuseum{
+  width: 100%;
+  max-width: 1250px;
+  position: relative;
+
+}
