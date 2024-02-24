@@ -115,12 +115,61 @@ h1{
 
 .exhibits{
   color: rgb(250, 219, 20);
-  font-size: 60px;
+  font-size: 80px;
+  position: absolute;
+  top: 40%;
+  right: 530px;
 }
 
 .insidemuseum{
   width: 100%;
   max-width: 1250px;
-  position: relative;
+}
 
+.browse-ex{
+  position: relative;
+  text-align: center;
+}
+
+
+.icons{
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+}
+
+.facebook {
+  width: 100%;
+  max-width: 30px;
+}
+
+.instagram{
+  width: 100%;
+  max-width: 20px;
+}
+
+.twitter{
+  width: 100%;
+  max-width: 40px;
+}
+
+.linkedin{
+  width: 100%;
+  max-width: 20px;
+}
+
+ul{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 15px;
+  list-style-type: none;
+  font-weight: bold;
+}
+
+.termsetc{
+  font-size: 10px;
+  color: white;
 }
