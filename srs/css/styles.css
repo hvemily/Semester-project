@@ -11,12 +11,16 @@ a{
   color: rgb(250, 219, 20);
 }
 
-h1{
+h1, h2, h3, h4, h5, h6{
   color: rgb(250, 219, 20);
 }
 
 *{
   font-family: arial;
+}
+
+ul, li {
+  color: rgb(250, 219, 20);
 }
 
 
@@ -73,6 +77,7 @@ h1{
 }
 
 .main-header{
+  font-size: 60px;
   text-align: center;
   margin-bottom: 45px;
 }
@@ -113,12 +118,32 @@ h1{
   max-width: 80px;
 }
 
+.browse-ex{
+  position: relative;
+  text-align: center;
+}
+
 .exhibits{
   color: rgb(250, 219, 20);
-  font-size: 80px;
+  font-size: 60px;
   position: absolute;
-  top: 40%;
-  right: 530px;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.browse{
+  background-color: none;
+  background: none;
+  border: none;
+  color: rgb(250, 219, 20);
+  font-size: 30px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-decoration: underline;
+  cursor: pointer;
 }
 
 .insidemuseum{
@@ -126,13 +151,122 @@ h1{
   max-width: 1250px;
 }
 
-.browse-ex{
-  position: relative;
+.explorewhat{
+  font-size: 50px;
   text-align: center;
 }
 
+.explore-card{
+  width: 100%;
+  max-width: 1250px;
+  display: flex;
+  border: solid 1px yellow;
+  align-items: center;
+  margin: 0 auto;
+  min-width: 100px;
+  margin-bottom: 20px;
+}
 
-.icons{
+.science{
+  width: 700px;
+  min-width: 100px;
+}
+
+.text{
+  display: flex;
+  flex-direction: column;
+  margin-right: 25px;
+  line-height: 30px;
+}
+
+.explore-card ul {
+  list-style-type: none;
+  font-size: 20px;
+}
+
+.explore-card-reverse ul {
+  list-style-type: none;
+  font-size: 20px;
+  margin-right: 95px;
+}
+
+.card-title{
+  margin-left: 35px;
+  font-size: 45px;
+  margin-bottom: 10px;
+}
+
+.explore-card-reverse{
+  width: 100%;
+  max-width: 1250px;
+  display: flex;
+  flex-direction: row-reverse;
+  border: solid 1px yellow;
+  align-items: center;
+  margin: 0 auto;
+  min-width: 100px;
+  margin-bottom: 20px;
+}
+
+.upcoming{
+  text-align: center;
+}
+
+.upcoming-events{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.events-card{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: 200px;
+  border: 1px solid;
+  border-color: rgb(250, 219, 20);
+  background-color: rgb(250, 219, 20);
+  margin-right: 20px;
+}
+
+.card-image{
+  width: 100%;
+  max-width: 200px;
+}
+
+.title-card{
+  margin: 5px;
+  margin-top: 10px;
+  text-align: center;
+  color: #000000;
+}
+
+.information-card{
+  margin-top: 5px;
+  font-size: 14px;
+  padding: 5px;
+  color: #000000;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//*footer*//
+
+.footer-icons{
   display: flex;
   flex-direction: row;
   gap: 10px;
@@ -160,7 +294,7 @@ h1{
   max-width: 20px;
 }
 
-ul{
+.footer ul{
   display: flex;
   flex-direction: row;
   justify-content: center;
