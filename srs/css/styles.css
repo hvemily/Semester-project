@@ -292,7 +292,7 @@ h1, h2, h3, h4, h5, h6{
   display: flex;
   flex-direction: column;
   width: 100%;
-  max-width: 200px;
+  max-width: 235px;
   border: 1px solid;
   border-color: rgb(250, 219, 20);
   background-color: rgb(250, 219, 20);
@@ -305,6 +305,7 @@ h1, h2, h3, h4, h5, h6{
   text-align: left;
   color: #000000;
   font-weight: bold;
+  margin-bottom: 0px;
 }
 
 .information-card{
@@ -472,6 +473,26 @@ h1, h2, h3, h4, h5, h6{
 .send:hover{
   cursor: pointer;
 }
+
+
+/*events & exhibitions page*/
+
+.new-events{
+  text-align: center;
+}
+
+.events-intro{
+  color: rgb(250, 219, 20);
+  text-align: center;
+  align-items: center;
+  line-height: 20px;
+  margin-bottom: 30px;
+}
+
+.events-1{
+  text-align: center;
+}
+
 
 
 /*footer*/

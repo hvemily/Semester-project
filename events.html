@@ -1,17 +1,114 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>My Website</title>
-    <link rel="stylesheet" href="./style.css">
-    <link rel="icon" href="./favicon.ico" type="image/x-icon">
-  </head>
-  <body>
-    <main>
-        <h1>Welcome to My Website</h1>  
-    </main>
-	<script src="index.js"></script>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Oslo Science Museum</title>
+  <link rel="stylesheet" href="srs/css/styles.css">
+  <link rel="icon" href="/assets/images/logos/logo_final_2.png" type="image/x-icon">
+</head>
+<body>
+  <main>
+    <div class="desktop-header">
+      <img src="assets/images/logos/logo_final_2.png" alt="Oslo Science Museum logo" class="logo">
+      <nav class="nav-desktop">
+        <ul>
+          <li>
+            <a href="events.html">EXHIBITIONS</a>
+          </li>
+          <li>
+            <a href="visitus.html">VISIT US</a>
+          </li>
+          <li>
+            <a href="contribute.html">CONTRIBUTE</a>
+          </li>
+          <li>
+            <a href="contact.html">CONTACT</a>
+          </li>
+        </ul>
+      </nav>
+      <div class="social-media"><img src="assets/images/icons/instagram%20(1).svg" alt="instagram logo" class="instagram"> <img src="assets/images/icons/square-twitter.svg" alt="twitter logo" class="twitter"> <img src="assets/images/icons/square-facebook%20(1).svg" alt="facebook logo" class="facebook"> <img src="assets/images/icons/linkedin.svg" alt="linkedin logo" class="linkedin"></div>
+    </div>
+    <nav class="nav-grid">
+      <img class="logo" src="assets/images/logos/logo_final_2.png" alt="gamehub logo"> <label for="hamburger-ham"><img class="burger" src="assets/images/icons/hamburger.png" alt="hamburger menu"></label> <input id="hamburger-ham" name="hamburger-ham" type="checkbox">
+      <div class="hidden-burger">
+        <div class="top-buttons">
+          <a href="events.html">EXHIBITIONS & EVENTS</a> <a href="visitus.html">VISIT US</a> <a href="contribute.html">CONTRIBUTE</a> <a href="contact.html">CONTACT</a>
+        </div>
+      </div>
+    </nav>
+
+    <h1 class="new-events">EVENTS & EXHIBITIONS</h1>
+    <p class="events-intro">We believe science should not be confined to the textbook, but brought to live through exhibits. This is why we have over 1000 different exhibits on the many varied subjects of science to explore. Many of these exhibits are designed for you to interact with and play around to see science come to life (apart from the dinosaur exhibits – they only come to life at night when everyone’s gone home).</p>
+    
+    <h2 class="events-1">EVENTS</h2>
+
+    <div class="upcoming-events">
+      <div class="events-card">
+        <img src="assets/images/main%20page/sheila2.jpg" alt="Sheila Widnall" class="img-card">
+        <p class="title-card">Visiting Professor of Aernautics</p>
+        <p class="information-card">It is our pleasure to announce that Professor Sheila WIdnall from the Massachusetts Institute of Technology will be delivering 3 lectures on the developement of aeronautics and where the future lies in this exciting 'space'.</p>
+      </div>
+      <div class="events-card">
+        <img src="assets/images/main%20page/_7ed43829-efc1-4e74-a302-7827a49287e1.jpg" alt="dinosaurs inside museum at night" class="img-card">
+        <p class="title-card">Night in the Museum</p>
+        <p class="information-card">Get your family together for an exciting night in the museum as you sleep over beside dinosaurs and science displays. Bring your own sleeping bag and get ready to rough it as we go exploring the wonders of science.</p>
+      </div>
+      <div class="events-card">
+        <img src="assets/images/main%20page/scientific-2040795_1280.jpg" alt="woman working in machine" class="img-card">
+        <p class="title-card">Energetica Exhibition on Loan</p>
+        <p class="information-card">On loan from the NEMO Science Museum in Amsterdam, the Energetica exhibition is coming to the Oslo Science Museum. It’s a series of installations that allow visitors to experience the power of elements as we harness them.</p>
+      </div>
+
+      <h2 class="events-1">EXHIBITIONS</h2>
+
+      <div class="events-card">
+        <img src="assets/images/events&exhibitions/greg-rakozy-oMpAz-DN-9I-unsplash-min.jpg" alt="Man watching stars at night with colorfur scenery" class="img-card">
+        <p class="title-card">Cosmology</p>
+        <p class="information-card">Explore thewonders of our cosmos. Our exhibition, ‘The Sky Above Us’, explores the night sky and what we can see and know about the universe around us. We’lllocate the various constellations and galaxies that can be seen and learn a bitabout the early navigators who used the stars to travel by.
+        </p>
+      </div>
+      <div class="events-card">
+        <img src="assets/images/events&exhibitions/engin-akyurt--cMe-jWSUuc-unsplash-min.jpg" alt="dinosaurs inside museum at night" class="img-card">
+        <p class="title-card">Evolution</p>
+        <p class="information-card">
+          Discover the origins of life on this planet and how the species we know today have evolved our time. You can also take some time to meet a few of the creatures who didn’t survive, including our Woolly Mammoth, the Dodos, and a number of dinosaurs too.</p>
+      </div>
+      <div class="events-card">
+        <img src="assets/images/events&exhibitions/girl-with-red-hat-r4A-lJTgXQg-unsplash-min.jpg" alt="woman working in machine" class="img-card">
+        <p class="title-card">Biology and Medicine</p>
+        <p class="information-card">From micro-organisms to the human body, major breakthroughs in biology are offering us unique insights into the great wonders of the tiny world. Many of our great medicinal discoveries have come not only from the lab, but also fromobserving animals in the wild. Often our fellow creatures have beat us to it.</p>
+      </div>      <div class="events-card">
+        <img src="assets/images/events&exhibitions/samuel-zeller-158996-min.jpg" alt="Sheila Widnall" class="img-card">
+        <p class="title-card">Robotics and AI</p>
+        <p class="information-card">The information revolution is here and robotics and artificial intelligence are the science of the future. From useful home applications of AI to industrial uses of robotics, the future is here. You can even say hello and shake the hand of Rob the Robot.</p>
+      </div>
+      <div class="events-card">
+        <img src="assets/images/events&exhibitions/jan-kopriva-nex3P5iBnPg-unsplash-min.jpg" alt="dinosaurs inside museum at night" class="img-card">
+        <p class="title-card">Ecology</p>
+        <p class="information-card">In our ecology section of the museum, we unpack the dangers we currently face including global warming, extinction of species, and pollution. But we also focus on the positive ways we can all contribute to a brighter future</p>
+      </div>
+  </main>
+  <footer>
+    <div class="footer-icons"><img src="assets/images/icons/square-facebook%20(1).svg" class="facebook" alt="square-facebook%20(1)"> <img src="assets/images/icons/instagram%20(1).svg" class="instagram" alt="instagram%20(1)"> <img src="assets/images/icons/square-twitter.svg" class="twitter" alt="square-twitter"> <img src="assets/images/icons/linkedin.svg" class="linkedin" alt="linkedin"></div>
+    <div class="footer-nav">
+      <nav>
+        <ul>
+          <li>HOME</li>
+          <li>EXHIBITIONS&amp;EVENTS</li>
+          <li>CONTACT</li>
+        </ul>
+      </nav>
+      <nav class="termsetc">
+        <ul>
+          <li>PRIVACY POLICY</li>
+          <li>TERMS OF CONDITION</li>
+        </ul>
+      </nav>
+    </div>
+  </footer>
+</body>
+</html>
   </body>
 </html>
