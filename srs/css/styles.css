@@ -500,6 +500,7 @@ footer {
 
 .message {
   width: 100%; 
+  max-width: 15rem;
   height: 100%;
   resize: none;         
   font-family: inherit;  
@@ -508,6 +509,7 @@ footer {
   border: none;
   font-weight: bold;
   padding-left: 5px;
+  margin-left: -2px;
 }
 
 .message::placeholder { 
