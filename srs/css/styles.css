@@ -16,10 +16,6 @@ h1 {
   text-align: center;
 }
 
-a{
-  color: rgb(250, 219, 20);
-}
-
 /*main page*/
 
 .desktop-header {
@@ -127,7 +123,7 @@ a{
 }
 
 .main-header{
-  font-size: 35px;
+  font-size: 30px;
   text-align: center;
   margin-bottom: 45px;
   color: rgb(250, 219, 20);
@@ -205,7 +201,7 @@ a{
   color: rgb(250, 219, 20);
   font-size: 20px;
   position: absolute;
-  top: 55%;
+  top: 75%;
   left: 50%;
   transform: translate(-50%, -50%);
   text-decoration: underline;
@@ -218,7 +214,7 @@ a{
 }
 
 .explorewhat{
-  font-size: 50px;
+  font-size: 30px;
   text-align: center;
 }
 
@@ -255,7 +251,7 @@ a{
 }
 
 .card-title{
-  font-size: 35px;
+  font-size: 25px;
   margin-bottom: 10px;
   text-align: center;
 }
@@ -277,7 +273,7 @@ a{
   text-align: center;
   margin-top: 55px;
   margin-bottom: 35px;
-  font-size: 3vh;
+  font-size: 25px;
 }
 
 .upcoming-events{
@@ -320,6 +316,11 @@ a{
   width: auto;
 }
 
+.source{
+  font-size: 10px;
+  text-align: center;
+}
+
 .moreevents{
   background: none;
   border: none;
@@ -331,6 +332,10 @@ a{
   margin: 0 auto;
   margin-bottom: 25px;
   cursor: pointer;
+}
+
+.moreevents a{
+  color: rgb(250, 219, 20);
 }
 
 
@@ -613,8 +618,8 @@ footer {
   flex-direction: row;
   gap: 15px;
   justify-content: center;
-  margin-top: 55px;
-  margin-bottom: 55px;
+  margin-top: 25px;
+  margin-bottom: 25px;
 }
 
 .facebook {
@@ -648,12 +653,14 @@ footer {
   gap: 15px;
 }
 
-.footer-nav{
+.footer-nav a{
   color: rgb(250, 219, 20);
+  text-decoration: none;
 }
 
-.termsetc{
+.termsetc a{
   color: white;
+  text-decoration: none;
 }
 
 .footer-nav, .termsetc{
