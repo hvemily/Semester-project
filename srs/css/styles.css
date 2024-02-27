@@ -1,3 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700&display=swap');
+
+*{
+  font-family: 'Inter', sans-serif;
+}
 
 body{
   background-color: #000000;
@@ -155,7 +160,7 @@ ul, li {
   color: rgb(250, 219, 20);
   font-size: 1.5vh;
   position: absolute;
-  top: 65%;
+  top: 45%;
   left: 50%;
   transform: translate(-50%, -50%);
   text-decoration: underline;
@@ -283,6 +288,7 @@ ul, li {
   display: block;
   margin: 0 auto;
   margin-bottom: 25px;
+  cursor: pointer;
 }
 
 
@@ -310,7 +316,6 @@ footer {
   display: flex;
   flex-direction: row;
   gap: 15px;
-  align-items: center;
   justify-content: center;
   margin-top: 55px;
   margin-bottom: 55px;
@@ -340,8 +345,11 @@ footer {
   display: flex;
   flex-direction: column;
   list-style-type: none;
-  gap: 10px;
   align-items: center;
+  margin: 0 auto;
+  margin-bottom: 25px;
+  padding: 0;
+  gap: 15px;
 }
 
 .termsetc{
