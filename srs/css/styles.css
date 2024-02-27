@@ -191,7 +191,7 @@ a{
 
 .exhibits{
   color: rgb(250, 219, 20);
-  font-size: 3vh;
+  font-size: 30px;
   position: absolute;
   top: 30%;
   left: 50%;
@@ -228,12 +228,11 @@ a{
   display: flex;
   flex-direction: column;
   border: solid 1px yellow;
-  align-items: center;
-  margin: 0 auto;
   min-width: 100px;
+  color: rgb(250, 219, 20);
+  margin: 0 auto;
   margin-bottom: 20px;
   margin-top: 20px;
-  color: rgb(250, 219, 20);
 }
 
 .explore-img{
@@ -244,28 +243,21 @@ a{
 .text{
   display: flex;
   flex-direction: column;
-  margin-right: 25px;
-  line-height: 30px;
-  text-align: center;
   line-height: 35px;
 }
 
 .explore-card ul {
-  list-style-type: none;
-  font-size: 20px;
-  text-align: center;
+  font-size: 14px;
 }
 
 .explore-card-reverse ul {
-  list-style-type: none;
-  font-size: 20px;
-  text-align: center;
+  font-size: 14px;
 }
 
 .card-title{
-  margin-left: 35px;
   font-size: 35px;
   margin-bottom: 10px;
+  text-align: center;
 }
 
 .explore-card-reverse{
@@ -274,11 +266,11 @@ a{
   display: flex;
   flex-direction: column;
   border: solid 1px yellow;
-  align-items: center;
-  margin: 0 auto;
   min-width: 100px;
-  margin-bottom: 20px;
   color: rgb(250, 219, 20);
+  margin: 0 auto;
+  margin-bottom: 20px;
+  margin-top: 20px;
 }
 
 .upcoming{
