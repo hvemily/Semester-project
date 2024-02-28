@@ -851,3 +851,52 @@ footer {
   justify-content: center;
   margin-top: 25px;
 }
+
+
+/*contact page*/
+
+.info-boxes{
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  align-items: normal;
+  justify-content: center;
+}
+
+.phone{
+  width: 100%;
+  max-width: 40px;
+  height: 30px;
+}
+
+.mail{
+  width: 100%;
+  max-width: 40px;
+  height: 35px;
+}
+
+.location{
+  width: 100%;
+  max-width: 50px;
+  height: 40px;
+}
+
+.box{
+  width: 250px;
+  align-items: center;
+}
+
+.address, .number, .e-mail{
+  font-size: 12px;
+}
+
+.entry-info{
+  display: flex;
+  flex-direction: row;
+  font-size: 14px;
+  align-items: normal;
+  justify-content: center;
+  gap: 55px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
