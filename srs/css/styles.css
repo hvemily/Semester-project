@@ -799,7 +799,7 @@ display: none;
       align-items: center;
       border-bottom: 1px solid rgb(250, 219, 20);
     }
-  }
+  
 
   .nav-desktop {
     flex-grow: 1;
