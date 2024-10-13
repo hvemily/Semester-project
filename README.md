@@ -79,7 +79,7 @@ To run the project locally:
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/museum-project.git
+   git clone https://github.com/hvemily/museum-project.git
 2. Open the index.html file in your browser to view the site locally.
 
 
