@@ -68,9 +68,9 @@ The following assets are included in this project:
 
 - **Figma Style Guide**: Logo, color scheme, typography, and style rules.
 - **Figma Wireframes**: High-fidelity mockups for each page view.
-- **GitHub Repository**: [View the source code](https://github.com/yourusername/museum-project).
-- **GitHub Pages Deployment**: [View the live site](https://yourusername.github.io/museum-project/).
-- **GitHub Projects Board**: [Project progress Kanban board](https://github.com/yourusername/museum-project/projects).
+- **GitHub Repository**: [View the source code](https://github.com/hvemily/Semester-project)
+- **GitHub Pages Deployment**: [View the live site](https://hvemily.github.io/Semester-project/).
+- **GitHub Projects Board**: [Project progress Kanban board](https://github.com/users/hvemily/projects/3).
 - **Written Report**: A comprehensive report, including references, documenting the development process.
 
 ## Installation and Setup
